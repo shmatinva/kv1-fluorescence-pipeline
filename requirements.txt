@@ -1,0 +1,14 @@
+cellpose==4.0.3
+h5py==3.13.0
+matplotlib==3.10.3
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+scikit-image==0.24.0
+tifffile==2024.8.30
+torch==2.5.1 #torch можно установить из файла torch-2.5.1%2Bcu121-cp39-cp39-win_amd64.whl
+torchvision==0.20.1+cu121
+PyQt6==6.9.0
+opencv-python-headless==4.11.0.86
+pyqtgraph==0.13.7
+tqdm==4.67.1
