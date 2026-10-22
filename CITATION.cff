@@ -1,0 +1,15 @@
+## Citation
+
+If you use this pipeline in your research, please cite the accompanying article:
+
+> Shmatin I. I., Nekrasova O. V., Feofanov A. V.
+> Semi-Automated Approach to Fluorescence Image Processing for Measuring the Affinity of Peptide Blockers to Potassium Kv1 Channels.
+> Bioorganicheskaya Khimiya, 2026, Vol. 52, No. 5 (in Russian).
+> https://doi.org/10.7868/S1998286026050207
+
+Original Russian title:
+«Полуавтоматизированный способ обработки флуоресцентных изображений
+для измерения аффинности пептидных блокаторов к калиевым Kv1-каналам».
+
+Source code:
+https://github.com/shmatinva/kv1-fluorescence-pipeline
