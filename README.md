@@ -1,8 +1,11 @@
 # Semi-automated Python pipeline for analysis of fluorescent binding of peptide toxins to Kv1.1/1.2 channels
 
-This repository contains the Python code for a semi-automated image analysis pipeline described in:
+This repository contains the Python code for the semi-automated image analysis pipeline described in the following article:
 
-> Shmatin I.I., Nekrasova O.V., Feofanov A.V. Semi-automated processing of fluorescent images to measure the affinity of peptide blockers to potassium Kv1 channels. Bioorganic Chemistry, 2026 (in press).
+> Shmatin I. I., Nekrasova O. V., Feofanov A. V.
+> Semi-Automated Approach to Fluorescence Image Processing for Measuring the Affinity of Peptide Blockers to Potassium Kv1 Channels.
+> Bioorganicheskaya Khimiya, 2026, Vol. 52, No. 5 (in Russian).
+> https://doi.org/10.7868/S1998286026050207
 
 The pipeline combines neural network–based membrane segmentation (Cellpose), interactive quality control of segmented cells, and automated calculation of ligand/channel fluorescence intensity ratios for quantitative analysis of fluorescent binding of scorpion peptide toxins to Kv1 channels.
 
