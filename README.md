@@ -21,7 +21,7 @@ The pipeline combines neural network–based membrane segmentation (Cellpose), i
 ## Repository structure
 
 - `Main_cellpose.py` — main entry point; orchestrates batch processing of TIFF files and calls `Object_maker.py` and `cellpose_analysis.py`.
-- `Object_maker.py` — automatic generation of cell masks using the Cellpose model (red channel).
+- `Object_maker.py` — automatic generation of cell masks from red-channel images using the pretrained Cellpose-SAM model (`cpsam`).
 - `cellpose_analysis.py` — interactive quality control of segmented cells and calculation of intensity ratios.
 - `requirements.txt` — Python dependencies required to run the pipeline.
 - `file_naming_notes.md` — input file and folder naming conventions and expected directory structure.
@@ -36,7 +36,7 @@ The pipeline combines neural network–based membrane segmentation (Cellpose), i
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/kv1-fluorescence-pipeline.git
+   git clone https://github.com/shmatinva/kv1-fluorescence-pipeline.git
    cd kv1-fluorescence-pipeline
    ```
 
@@ -142,11 +142,19 @@ You can open the final CSV in Excel, Python or R for plotting and statistical an
 
 ## Citation
 
-This code accompanies the manuscript:
+If you use this pipeline in your research, please cite the accompanying article:
 
-Shmatin I.I., Nekrasova O.V., Feofanov A.V.
-Semi-automated processing of fluorescent images to measure the affinity of peptide blockers to potassium Kv1 channels.
-Bioorganic Chemistry, 2026 (manuscript in preparation / under review).
+> Shmatin I. I., Nekrasova O. V., Feofanov A. V.
+> Semi-Automated Approach to Fluorescence Image Processing for Measuring the Affinity of Peptide Blockers to Potassium Kv1 Channels.
+> Bioorganicheskaya Khimiya, 2026, Vol. 52, No. 5 (in Russian).
+> https://doi.org/10.7868/S1998286026050207
+
+Original Russian title:
+«Полуавтоматизированный способ обработки флуоресцентных изображений
+для измерения аффинности пептидных блокаторов к калиевым Kv1-каналам».
+
+Source code:
+https://github.com/shmatinva/kv1-fluorescence-pipeline
 
 Please cite this repository as:
 
