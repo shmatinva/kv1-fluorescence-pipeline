@@ -155,8 +155,3 @@ Original Russian title:
 
 Source code:
 https://github.com/shmatinva/kv1-fluorescence-pipeline
-
-Please cite this repository as:
-
-Shmatin I.I. et al. Kv1 fluorescence image analysis pipeline (Python code). GitHub, 2026.
-URL will be provided after the repository is made public.
